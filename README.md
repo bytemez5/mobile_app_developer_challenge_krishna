@@ -1,17 +1,23 @@
-# mobile_app_developer_challenge_krishna
+# Peblo AI Story Buddy - Mobile App Developer Challenge
 
-A new Flutter project.
+An interactive, responsive Flutter application designed as an engaging storytelling companion for children. The app features dynamic story tracking, text-to-speech audio narration, and real-time comprehension quizzes.
 
-## Getting Started
+## 🚀 Key Features Implemented
 
-This project is a starting point for a Flutter application.
+* **Dynamic Story Engine:** Manages a branchable, multi-page story layout smoothly using structural state updates.
+* **Text-to-Speech (TTS):** Integrated native audio narration so children can listen along to the story text dynamically.
+* **Comprehension Quiz System:** Fully functional quiz evaluation logic featuring interactive choices, instant feedback, and progress tracking.
+* **State Management:** Handled cleanly using the `provider` architecture to maintain separation of UI and business logic.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack & Architecture
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **Framework:** Flutter (Dart)
+* **State Management:** Provider
+* **Packages Used:** `flutter_tts`, `provider`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure Explainer
+
+* `lib/main.dart` — Core app configuration, themes, and screen routing.
+* `lib/app_provider.dart` — Global application state, story page progression, and text-to-speech control flows.
+* `lib/quiz_model.dart` — Data models handling quiz structures, answer validation, and story content definitions.
+* `pubspec.yaml` — Configured project dependencies and assets.
